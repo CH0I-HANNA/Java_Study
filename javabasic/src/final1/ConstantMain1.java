@@ -16,6 +16,7 @@ public class ConstantMain1 {
             System.out.println("대기자로 등록합니다.");
         } else {
             System.out.println("게임에 참여합니다.");
+            System.out.println("hello");
         }
     }
 }
