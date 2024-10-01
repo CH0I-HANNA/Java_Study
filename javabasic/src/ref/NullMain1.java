@@ -7,6 +7,5 @@ public class NullMain1 {
         System.out.println("data = " + data);
         data = new Data();
         System.out.println("data = " + data);
-
     }
 }
