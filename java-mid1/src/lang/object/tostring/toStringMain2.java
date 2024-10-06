@@ -27,8 +27,5 @@ public class toStringMain2 {
 
         String refValue2 = Integer.toHexString(System.identityHashCode(dog2 ));
         System.out.println("refValue2 = " + refValue2);
-
-
-        System.out.println("hannachoihannachoihannachoi. ");
     }
 }
