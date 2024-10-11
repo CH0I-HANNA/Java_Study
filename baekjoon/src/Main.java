@@ -13,6 +13,7 @@ public class Main {
         for (int j = 0; j < n; j++) {
             arr[j] = sc.nextInt();
         }
+        System.out.println("test");
 
         min = arr[i];
         max = arr[i];
