@@ -1,13 +1,14 @@
-package exception.ex1;
+package exception.ex3;
+
+import exception.ex3.exception.NetworkClientExceptionV3;
 
 import java.util.Scanner;
 
-public class MainV1 {
+public class MainV3 {
 
-    public static void main(String[] args) {
-//        NetworkServiceV1_1 networkService = new NetworkServiceV1_1();
-//        NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
-        NetworkServiceV1_3 networkService = new NetworkServiceV1_3();
+    public static void main(String[] args) throws NetworkClientExceptionV3 {
+//        NetworkServiceV3_1 networkService = new NetworkServiceV3_1();
+        NetworkServiceV3_2 networkService = new NetworkServiceV3_2();
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -16,7 +17,7 @@ public class MainV1 {
             if (input.equals("exit")) {
                 break;
             }
-            networkService.sendMessage(input);
+            networkService.sendMessage(input); //예외 던지기
             System.out.println();
         }
         System.out.println("프로그램을 정상 종료합니다.");
