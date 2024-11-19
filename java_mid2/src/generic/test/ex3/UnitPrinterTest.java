@@ -12,8 +12,8 @@ public class UnitPrinterTest {
         Shuttle<Zealot> shuttle3 = new Shuttle<>();
         shuttle3.in(new Zealot("질럿", 100));
 
-        UnitPrinter.printV1(shuttle1);
-        UnitPrinter.printV2(shuttle1);
+        UnitPrinter.printV1(shuttle1); //제네릭 메서드
+        UnitPrinter.printV2(shuttle1); //와일드카드
     }
 }
 //ㅇㅇ
